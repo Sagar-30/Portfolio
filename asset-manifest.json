@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sagar-30/Portfolio/static/css/main.91668999.css",
+    "main.js": "/Sagar-30/Portfolio/static/js/main.172fa46d.js",
+    "index.html": "/Sagar-30/Portfolio/index.html",
+    "main.91668999.css.map": "/Sagar-30/Portfolio/static/css/main.91668999.css.map",
+    "main.172fa46d.js.map": "/Sagar-30/Portfolio/static/js/main.172fa46d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91668999.css",
+    "static/js/main.172fa46d.js"
+  ]
+}
