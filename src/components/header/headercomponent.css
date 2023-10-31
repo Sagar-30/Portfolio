@@ -1,0 +1,94 @@
+.header-section-main{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+   background: linear-gradient(135deg, #3494E6, #EC6EAD);
+  color:white;
+  height:auto;
+  
+}
+.header-comp-img-section{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:auto;
+}
+.header-comp-img-section img{
+  width:4rem;
+  height:4rem;
+  border-radius:50%;
+  margin:1.2rem;
+  box-shadow:2px 2px 3px 3px lightgray;
+}
+.header-comp-right-section a{
+  text-decoration:none;
+  color:white;
+  cursor:pointer;
+}
+.header-comp-img-section h2{
+  margin-bottom:0;
+  font-family: "Raleway", sans-serif;
+}
+.header-comp-img-section p{
+  margin-top:0.5rem;
+  font-family: "Raleway", sans-serif;
+}
+.header-comp-right-section{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:1rem;
+  height:auto;
+  width:auto;
+  cursor:pointer;
+  /* border:1px solid grey; */
+}
+.header-comp-right-section{
+  padding:1rem;
+}
+
+@media screen and (max-width: 600px){
+  .header-comp-img-section h2{
+    font-size:1.3rem;
+  }
+  .header-comp-img-section p{
+    font-size:0.9rem;
+  }
+  .header-comp-right-section p{
+    font-size:0.9rem;
+  }
+  .header-linkedin-logo{
+    height:1.2rem !important;
+    width:auto;
+  }
+  /* .header-comp-right-section p{
+     display:unset; 
+  } */
+  .header-comp-img-section img{
+    width:3rem;
+    height:3rem;
+  }
+}
+@media screen and (max-width: 500px){
+  .header-comp-img-section h2{
+    font-size:1rem;
+  }
+  .header-comp-img-section p{
+    font-size:0.7rem;
+  }
+  .header-comp-right-section p{
+    font-size:0.9rem;
+  }
+  .header-linkedin-logo{
+    height:1.6rem !important;
+    width:auto;
+    margin-right:1rem;
+  }
+  .header-comp-right-section p{
+    display:none;
+  }
+  .header-comp-img-section img{
+    width:3rem;
+    height:3rem;
+  }
+}

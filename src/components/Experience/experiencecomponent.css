@@ -1,0 +1,109 @@
+.experience-section-top-text h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left:1rem;
+  margin-top:5rem;
+  color: #173b6c;
+}
+.experience-section-top-text p{
+  height:.3rem;
+   width:9vw;
+     margin-left:1rem;
+     margin-bottom: 25px;
+    background-color:lightblue;
+    border:1px solid lightblue;
+}
+.experience-section-top-card{
+  
+}
+.experience-section-card{
+  height:auto;
+  width:93vw;
+  margin-left:1vw;
+  border:1px solid #cee3fd;
+  padding:1rem 0 1rem 1rem;
+  border-radius:8px;
+  margin:1rem;
+  box-shadow: 0px 2px 5px #cee3fd;
+  transition:ease-in-out .3s;
+}
+.experience-section-card:hover{
+  transform: scale(1.02);
+}
+.experience-card-company-div{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:50vw;
+}
+.experience-card-company-div h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: #173b6c;
+
+}
+.experience-section-top-card p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: #050d18;
+}
+.experience-card-responsiblity-div li{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0px;
+  padding-bottom: .5rem;
+  color: #050d18;
+}
+
+@media screen and (max-width: 800px){
+  .experience-section-top-text h3{
+    font-size:1.5rem;
+  }
+  .experience-card-company-div{
+    max-width:95%;
+  }
+  .experience-card-company-div h3{
+    font-size: 1.05rem;
+  }
+  .experience-section-top-card p{
+    font-size: .8rem;
+  }
+  .experience-card-responsiblity-div li{
+    font-size: .8rem;
+    padding-right:1rem;
+  }
+  .experience-section-card{
+    margin-left:.7vw;
+  }
+}
+@media screen and (max-width: 550px){
+  .experience-section-card{
+  height:auto;
+  width:90vw;
+  }
+  .experience-card-company-div{
+    max-width:95%;
+  }
+  .experience-card-company-div h3{
+    font-size: .9rem;
+  }
+  .experience-section-top-card p{
+    font-size: .65rem;
+  }
+  .experience-card-responsiblity-div li{
+    font-size: .8rem;
+    padding-right:1rem;
+  }
+  .experience-section-card{
+    margin-left:.5vw;
+  }
+}

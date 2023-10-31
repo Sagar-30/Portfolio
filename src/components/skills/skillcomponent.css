@@ -1,0 +1,133 @@
+.top-both-skills{
+  display:flex;
+  justify-content:space-between;
+  align-items:top;
+}
+.skills-section-main{
+  width:40vw;
+}
+.skills-section-top-text h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left:1rem;
+  color: #173b6c;
+}
+.skills-section-top-text p{
+ height:.3rem;
+ width:9vw;
+   margin-left:1rem;
+   margin-bottom: 25px;
+  background-color:lightblue;
+  border:1px solid lightblue;
+}
+.skills-section-bottom-language{
+  display:flex;
+}
+.skills-section-bottom-language-left{
+  text-align:center;
+  
+}
+.skills-section-bottom-language-left p{
+width:.5rem;
+  height:.5rem;
+  border:4px solid #1f5297;
+  border-radius:50%;
+  margin:0 1rem 0 1rem;
+}
+.skills-section-bottom-language-left h5{
+  height:6rem;
+  width:0;
+  border:2px solid #1f5297;
+  /* margin: 0 1rem; */
+  margin:auto;
+}
+.skills-section-bottom-language-right{
+  text-align:top;
+}
+.skills-section-bottom-language-right p{
+  /* line-height: 18px; */
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+  
+}
+.skill-section-svg{
+  color:#1f5297;
+  height:3.5rem;
+}
+
+/* certificate-section start */
+
+.certificate-section-main{
+  width:50vw;
+}
+.certificate-section-top-text h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left:1rem;
+  color: #173b6c;
+}
+.certificate-section-top-text p{
+  height:.3rem;
+   width:9vw;
+     margin-left:1rem;
+     margin-bottom: 25px;
+    background-color:lightblue;
+    border:1px solid lightblue;
+}
+.certificate-section-bottom-link-container{
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  background: #e4edf9;
+  padding: .7rem;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: .1rem;
+  margin-top:0.2rem !important;
+}
+.certificate-section-bottom-links{
+  color: #149ddd;
+  text-decoration: none;
+      background-color: transparent;
+  }
+
+  @media screen and (max-width: 800px){
+  .skills-section-top-text h3{
+    font-size: 1.5rem; 
+  }
+  .certificate-section-top-text h3{
+      font-size: 1.5rem;
+    }
+ .skill-section-svg{
+      height:3.3rem;
+    }
+}
+@media screen and (max-width: 700px){
+  .skill-section-svg{
+    height:3rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .certificate-section-main{
+    width:60vw;
+  }
+  .skills-section-bottom-language-right p{
+    font-size:.9rem;
+  }
+  .skills-section-bottom-language-right h5{
+    font-size:.9rem;
+    padding:.5rem;
+  }
+  .skill-section-svg{
+    height:2.7rem;
+  }
+}
