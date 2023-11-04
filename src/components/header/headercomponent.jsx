@@ -1,10 +1,11 @@
 import './headercomponent.css'
 import {Linkedin} from 'react-bootstrap-icons' 
+import logo from "./profile-pic.png"
 export default function Header(){
   return(
     <section className='header-section-main'>
       <div className='header-comp-img-section'>
-        <img src='/profile-pic.png' alt=''/>
+        <img src={logo} alt=''/>
         <div>
         <h2>Sagar Kaushik</h2>
           <p>Web Developer...</p>
