@@ -182,7 +182,7 @@ const Portfolio = () => {
           </div>
           
           {/* Stats */}
-          <div className="stats-grid">
+          {/* <div className="stats-grid">
             {stats.map((stat, index) => (
               <div key={index} className={`stat-card ${isVisible['home'] ? 'fade-in-up' : ''}`} style={{ animationDelay: `${index * 100}ms` }}>
                 <stat.icon className="stat-icon" style={{ color: stat.color }} />
@@ -190,7 +190,7 @@ const Portfolio = () => {
                 <div className="stat-label">{stat.label}</div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
       
