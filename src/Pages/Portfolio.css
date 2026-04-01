@@ -381,7 +381,7 @@ body {
   border-radius: 16px;
   filter: blur(20px);
   opacity: 0.5;
-  animation: pulse 3s infinite;
+  /* animation: pulse 3s infinite; */
 }
 
 .profile-header {

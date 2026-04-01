@@ -67,7 +67,7 @@ const Portfolio = () => {
     { icon: FaJs, name: "JavaScript", color: "#f7df1e" },
     { icon: FaHtml5, name: "HTML5", color: "#e34c26" },
     { icon: FaCss3Alt, name: "CSS3", color: "#264de4" },
-    { icon: SiTailwindcss, name: "Tailwind", color: "#06b6d4" },
+    // { icon: SiTailwindcss, name: "Tailwind", color: "#06b6d4" },
     { icon: FaGitAlt, name: "Git", color: "#f34f29" }
   ];
   
